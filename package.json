@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "@reach/router": "^1.2.1",
+    "ajv": "^6.5.4",
+    "axios": "^0.18.0",
+    "emotion": "^9.2.12",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
     "react-scripts": "2.1.1"
   },
   "scripts": {
@@ -21,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  }
 }
