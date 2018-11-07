@@ -10,8 +10,8 @@ class App extends Component {
       <div className="App">
         <Router>
           <Home path="/" />
-          <Auth path="/login" keyword="login" />
-          <Auth path="/register" keyword="register" />
+          <Auth path="login" keyword="login" />
+          <Auth path="register" keyword="register" />
         </Router>
       </div>
     );

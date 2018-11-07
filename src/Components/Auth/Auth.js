@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Auth = ({ submitLogin, keyword }) => {
+const Auth = ({ submitLogin, path }) => {
   let [username, setUsername] = useState("");
   let [password, setPassword] = useState("");
   let [passwordValidation, setPasswordValidation] = useState("");
@@ -22,7 +22,7 @@ const Auth = ({ submitLogin, keyword }) => {
         onChange={e => setPassword(e.target.value)}
         type="password"
       />
-      {keyword === "login" ? null : (
+      {path === "login" ? null : (
         <>
           <label forhtml="PasswordValidation">Confirm Password</label>
           <input
